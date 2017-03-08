@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_top_reddits"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.julianchierichetti.reddittop.ui.TopRedditsActivity">
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/top_reddits_swipe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/top_reddits_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="0dp" />
+
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+    <TextView
+        android:id="@+id/top_reddits_empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:visibility="gone"
+        android:text="@string/feed_list_empty" />
+
+</RelativeLayout>

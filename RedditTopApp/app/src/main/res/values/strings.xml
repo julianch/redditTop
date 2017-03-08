@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RedditTop</string>
+
+    <!-- Feed item -->
+    <string name="feed_item_author">Author: %s</string>
+    <string name="feed_item_comments">Comments: %d</string>
+
+
+    <!-- Feed list -->
+    <string name="feed_list_empty">No result yet</string>
+</resources>
